@@ -1,10 +1,10 @@
-/* цвет заголовка NAVYBLUE #2E2F42 */
-/* цвет текста SLATE #434455 */
-/* акценты IRIS #4D5AE5 */
-/* цвет текста футера CORNFLOWER #E7E9FC */
-/* Белый #FFFFFF */
-/* вторичный цвет фона #F4F4FD */
-/* цвет хедера и футера #2E2F42 */
+/* Цвет заголовка #2E2F42 */
+/* Цвет текста  #434455 */
+/* Акценты  #4D5AE5 */
+/* Цвет текста футера #E7E9FC */
+/* Белый  #FFFFFF */
+/* Вторичный цвет фона  #F4F4FD */
+/* Цвет хедера и футера #2E2F42 */
 
 :root {
   --primary-text-color: #434455;
@@ -24,17 +24,17 @@ body {
   list-style: none;
 }
 
-/* Logo */
+/* Логотип */
 
 .logo .web {
-  color: (var(--accent-color));
+  color: var(--accent-color);
 }
 
 .logo .studio {
   color: var(--title-text-color);
 }
 
-/* Navigation + Contacts */
+/* Навигация и контакты */
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -47,29 +47,44 @@ body {
   color: var(--primary-text-color);
 }
 
-/* Hero */
+/* Геройка */
 .hero-title {
   color: #000000;
 }
 
-/* Section */
+/* Секции */
 .section-title {
   color: var(--title-text-color);
 }
 
-/* Workers */
+/* Работники */
 .workers-list .title {
   color: var(--title-text-color);
 }
 
-/* Features */
+/* Функции либо Features */
 .feature-list .title {
   color: var(--title-text-color);
 }
 
-/* button */
+/* Кнопки */
 .button {
   color: #ffffff;
   background-color: var(--accent-color);
   border: none;
+}
+
+/* Навигация в самом портфолио */
+.portfol-nav .link:hover {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.portfol-nav .link {
+  color: var(--accent-color);
+}
+
+/* Возможности */
+.opportunities-list .title {
+  color: var(--title-text-color);
 }
