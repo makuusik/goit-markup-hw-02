@@ -67,21 +67,22 @@ body {
   color: var(--title-text-color);
 }
 
-/* Кнопки */
-.button {
+/* Кнопка */
+.hero .link {
   color: #ffffff;
   background-color: var(--accent-color);
   border: none;
 }
 
 /* Навигация в самом портфолио */
-.portfol-nav .link:hover {
+.filters .link:hover {
   background-color: var(--accent-color);
   color: #ffffff;
 }
 
-.portfol-nav .link {
+.filters .link {
   color: var(--accent-color);
+  border: none;
 }
 
 /* Возможности */
