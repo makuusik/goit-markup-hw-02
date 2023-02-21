@@ -10,10 +10,13 @@
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
+  --sec-bg-color: #f4f4fd;
+  --primary-bg-color: #e5e5e5;
+  --header-bg-color: #e7e9fc;
 }
 
 body {
-  background-color: #fff;
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 }
 
@@ -62,4 +65,11 @@ body {
 /* Features */
 .feature-list .title {
   color: var(--title-text-color);
+}
+
+/* button */
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: none;
 }
