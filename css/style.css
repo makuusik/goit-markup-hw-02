@@ -75,7 +75,8 @@ body {
 }
 
 /* Навигация в самом портфолио */
-.filters .link:hover {
+.filters .link:hover,
+.filters .link:active {
   background-color: var(--accent-color);
   color: #ffffff;
 }
