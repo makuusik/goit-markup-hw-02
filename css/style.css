@@ -1,0 +1,65 @@
+/* цвет заголовка NAVYBLUE #2E2F42 */
+/* цвет текста SLATE #434455 */
+/* акценты IRIS #4D5AE5 */
+/* цвет текста футера CORNFLOWER #E7E9FC */
+/* Белый #FFFFFF */
+/* вторичный цвет фона #F4F4FD */
+/* цвет хедера и футера #2E2F42 */
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+}
+
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo .web {
+  color: (var(--accent-color));
+}
+
+.logo .studio {
+  color: var(--title-text-color);
+}
+
+/* Navigation + Contacts */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #000000;
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+}
+
+/* Hero */
+.hero-title {
+  color: #000000;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Workers */
+.workers-list .title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
