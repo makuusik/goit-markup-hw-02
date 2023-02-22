@@ -20,7 +20,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: "Roboto", sans-serif;
-  font-size: 400px;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -76,19 +76,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.feature-list .text {
-  font-weight: 400;
-}
-
-.feature-list .title {
-  color: var(--title-text-color);
-
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-
 /* Секции */
 .section-title {
   color: var(--title-text-color);
@@ -110,6 +97,8 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
+
+/* Возможности */
 .feature-list .title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -118,18 +107,22 @@ body {
   letter-spacing: 0.02em;
 }
 
+.feature-list .text {
+  font-weight: 400;
+}
+
 .workers-list .text {
   text-align: center;
 }
 
-/* Кнопка */
+/* Кнопка 1 */
 .hero .link {
   color: #ffffff;
   background-color: var(--accent-color);
   border: none;
 }
 
-/* Навигация в самом портфолио */
+/* Фильтры */
 .filters .link:hover,
 .filters .link:active {
   background-color: var(--accent-color);
@@ -138,10 +131,19 @@ body {
 
 .filters .link {
   color: var(--accent-color);
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: none;
 }
 
 /* Возможности */
 .opportunities-list .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
