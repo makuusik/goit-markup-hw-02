@@ -64,6 +64,11 @@ body {
   color: var(--primary-text-color);
 }
 
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #000000;
+}
+
 /* Геройка */
 
 .hero-title {
