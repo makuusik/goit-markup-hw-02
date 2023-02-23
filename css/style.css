@@ -1,18 +1,12 @@
-/* title text color #2E2F42 */
-/* text color  #434455 */
-/* Accent color #4D5AE5 */
-/* Footer color #E7E9FC */
-/* White  #FFFFFF */
-/* Secound bg color  #F4F4FD */
-/* Header and Footeer color #2E2F42 */
-
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2e2f42;
   --accent-color: #4d5ae5;
+  --primary-bg-color: #ffffff;
   --sec-bg-color: #f4f4fd;
-  --primary-bg-color: #e5e5e5;
   --header-bg-color: #e7e9fc;
+  --black-color: #000000;
+  --white-color: #ffffff;
 }
 
 body {
@@ -29,50 +23,49 @@ body {
   list-style: none;
 }
 
-/* Логотип */
+/* LOGO */
+.logo {
+  text-decoration: none;
+}
+
+.logo .studio,
+.logo .web {
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-family: "Raleway", cursive;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+}
 
 .logo .web {
   color: var(--accent-color);
-  font-family: "Raleway", cursive;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
 }
 
-.logo .studio {
-  color: var(--title-text-color);
-  font-family: "Raleway", cursive;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-}
-
-/* Навигация и контакты */
+/* HEADER NAVIGATION AND CONTACTS */
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: #000000;
 }
 
 .contacts .link {
   color: var(--primary-text-color);
 }
 
-.contacts .link:hover,
-.contacts .link:focus {
-  color: #000000;
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--black-color);
 }
 
-/* Геройка */
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--black-color);
+}
 
+/* HERO */
 .hero-title {
-  color: #000000;
-  font-family: "Roboto";
+  color: var(--black-color);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -80,7 +73,36 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Секции */
+/* BUTTONS AND FILTERS-BUTTON */
+.button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.filters .link {
+  color: var(--accent-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  cursor: pointer;
+}
+
+.filters .link:hover,
+.filters .link:active {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+/* SECTIONS */
 .section-title {
   color: var(--title-text-color);
 
@@ -92,8 +114,8 @@ body {
   text-transform: capitalize;
 }
 
-/* Работники */
-.workers-list .title {
+/* TEAM LIST */
+.team-list .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -102,7 +124,11 @@ body {
   text-align: center;
 }
 
-/* Возможности */
+.team-list .text {
+  text-align: center;
+}
+
+/* OUR APPROACH */
 .feature-list .title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -111,46 +137,8 @@ body {
   letter-spacing: 0.02em;
 }
 
-.feature-list .text {
-  font-weight: 400;
-}
-
-.workers-list .text {
-  text-align: center;
-}
-
-/* Кнопка 1 */
-.button {
-  color: #ffffff;
-  background-color: var(--accent-color);
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-}
-
-/* Фильтры */
-.filters .link:hover,
-.filters .link:active {
-  background-color: var(--accent-color);
-  color: #ffffff;
-}
-
-.filters .link {
-  color: var(--accent-color);
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  border: none;
-  cursor: pointer;
-}
-
-/* Возможности */
-.opportunities-list .title {
+/* OUR SERVICES */
+.service-list .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
