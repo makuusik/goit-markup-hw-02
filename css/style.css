@@ -56,12 +56,12 @@ body {
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: var(--black-color);
+  color: var(--accent-color);
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
-  color: var(--black-color);
+  color: var(--accent-color);
 }
 
 /* HERO */
